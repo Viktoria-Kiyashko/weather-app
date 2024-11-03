@@ -1,0 +1,81 @@
+/* App.css */
+.montserrat-normal {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  display: flex; 
+  justify-content: center; 
+   
+  min-height: 100vh; 
+  margin: 0; 
+  /*background-image: url(./img/bg\ body.jpg);*/
+  background-color: #071952;
+}
+
+.container {
+  text-align: center; 
+  padding: 20px; 
+  /*background-image: url(./img/cont.jpg);*/
+  background-color: #35A29F;
+  opacity: 0.9;
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+button {
+  padding: 12px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #97FEED;
+  color: rgb(31, 31, 31);
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  margin-top: 10px; 
+}
+
+button:hover {
+  background-color:#0B666A; 
+  color: aliceblue;
+}
+
+select {
+  padding: 10px; 
+  border: 1px solid #888888;
+  border-radius: 5px; 
+  font-size: 16px; 
+  margin-bottom: 10px; 
+}
+
+p{
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 400; 
+  font-size: 30px;
+}
+
+label{
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 400;
+  font-size: 20px;
+}
+
+option{
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+h2{
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 600;
+  font-size: 40px;
+}
+
